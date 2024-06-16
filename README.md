@@ -7,7 +7,9 @@ Các quyền cần : S3, CloudFormation, Lambda, ECR, SSM ...
 ##### Promnt
 
 cdk deploy : Deplop to production
+
 cdk diff : Kiểm tra permission
+
 cdk bootstrap : Kiểm tra build
 
 #### English
