@@ -4,8 +4,20 @@ Mẫu này cung cấp một ví dụ về ngăn xếp ứng dụng CDK sử dụ
 JavaScript,Python 3.9
 Các quyền cần : S3, CloudFormation, Lambda, ECR, SSM ...
 
+##### Promnt
+
+cdk deploy : Deplop to production
+cdk diff : Kiểm tra permission
+cdk bootstrap : Kiểm tra build
+
 #### English
 This pattern provides an example CDK application stack using TypeScript for the infrastructure and 2 different programming languages to implement an AWS Lambda function (all of them within a single stack). Each of the functions will use at least 1 external dependency to showcase how the function code is bundled together with its dependencies. The languages used in the pattern's Lambda functions are:
 
 JavaScript,Python 3.9
 Permission Need : S3, CloudFormation, Lambda, ECR, SSM ...
+
+##### Promnt
+
+cdk deploy
+cdk diff
+cdk bootstrap
